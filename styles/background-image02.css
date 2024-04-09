@@ -1,0 +1,9 @@
+#background-image2 {
+    height: 100%; /*Altura da imagem*/
+    background-image: url(https://github.com/IgorArauj0/Blood/blob/main/image/Background2.png?raw=true);  /*A imagem de fundo*/
+    background-repeat: no-repeat; /*A repetição da iamgem*/ 
+    background-size: cover; /*Para definir cobertura da iamgem*/
+    background-position: center; /*Posição da imagem*/
+    background-attachment: fixed;
+    padding: 20% 0; /*Tamanho da imagem*/
+}

@@ -1,24 +1,41 @@
 #background-image01 {
-    height: 100%;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px 0px;
-    color: white;
-    text-align: end;
+    height: 100%; /*Altura da imagem*/
+    background-image: url(https://raw.githubusercontent.com/IgorArauj0/Blood/a780e5025e3cf44a0b0ab2c007737c23a6baa930/image/Background.svg); /*A imagem de fundo*/
+    background-repeat: no-repeat; /*A repetição da iamgem*/
+    background-size: cover; /*Para definir cobertura da iamgem*/
+    padding: 40px 0px; /*Tamanho da imagem*/
+    color: white; /*Cor de fundo*/
+    text-align: end; /*Para alinhar o texto*/
 }
 
 #background-image01 h1 {
-    font-size: 80px;
-    font-weight: 300;
+    font-size: 80px; /*Para aumentar o tamanho do texto*/
+    font-weight: 300; /*Para ajeitar a largura*/ 
     margin: 20px;
 }
 
 #background-image01 button {
-    background-color: #752121;
-    border: none;
-    padding: 12px 18px;
+    background-color: #752121; /*Cor do texto do botão*/
+    border: none; /*Borda do botão*/
+    padding: 12px 18px; /*Tamnho do botão*/
     margin-bottom: 5%;
-    transition: 0.5s;
-    cursor: pointer;
+    transition: 0.5s; /*Transição ao passsar o mouse*/
+    cursor: pointer; /*Para personalizar o cursor do mouse*/
 }
+
+#background-image01 button:hover {
+    background-color: red; /*Cor de transição do botão ao passar o cursor por cima*/
+}
+
+#background-image01 button a {
+    color: white;
+    text-decoration: none; /*Decoração do texto*/
+    font-weight: bold; /*Para ajeitar a largura do texto*/
+    margin-top: 30px;
+    font-size: 16px; /*Tamanho da letra*/
+}
+
+
+
+
+
